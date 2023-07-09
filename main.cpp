@@ -1,6 +1,6 @@
-#include <iostream>
+#include "glm_vec3.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    glm_test();
     return 0;
 }
