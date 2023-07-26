@@ -13,7 +13,9 @@ add_executable(steady_cpp main.cpp ${EXAM_SRC})
 
 
 # include导入第三方库
-include_directories(thirdparty/include)
+include_directories(thirdparty/eigen)
+include_directories(thirdparty/glm)
+include_directories(thirdparty/rapidjson)
 
 # 子模块导入第三方库
 add_subdirectory(thirdparty/fmt)
